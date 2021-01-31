@@ -1,4 +1,4 @@
-tempC=input('請輸入攝氏溫度：')
+tempC=input('請輸入攝氏溫度（℃）：')
 tempC=float (tempC)
 tempF=tempC*9/5+32
-print('華氏溫度為：',tempF,'℉')
+print('華氏溫度為：'+"%5.1f"%tempF+'℉')
